@@ -1,0 +1,8 @@
+streamlit==1.44.1
+pymongo==4.11.3
+requests==2.32.3
+python-dotenv==1.0.1
+pandas==2.2.3
+dnspython==2.7.0
+plotly==6.0.1
+statsmodels==0.14.4

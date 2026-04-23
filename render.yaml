@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: streamlit-covid-dashboard
+    env: python
+    plan: free
+    buildCommand: pip install -r proyecto_streamlit/requirements.txt
+    startCommand: streamlit run proyecto_streamlit/app.py --server.port $PORT --server.address 0.0.0.0

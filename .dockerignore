@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.mypy_cache
+.env
+.streamlit/secrets.toml
+proyecto_streamlit/__pycache__
+proyecto_streamlit/pages/__pycache__
+proyecto_streamlit/data_exports
